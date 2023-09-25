@@ -1,6 +1,18 @@
 # Arrays
-An array is basically a sequence of many values of the same type stored in the same variable.
-In C arrays are a Derived Data Types
+Arrays are [[Data Structures]] consisting of elements stored in sequence in memory.
+
+## As Data Structures
+As a data structure, an array is a sequence of elements stored sequentially in memory, where each element can be acessed through the following formula:
+`
+address = (base address) + (element index * size of a single element)
+`
+Where base address is the address of the first element in the array.  
+Arrays are used to implement many others data structures, like [[Strings]] and lists.
+
+## As a Data Type
+Arrays are implemented as data type in some languages, but that does not mean this type uses an array *data structure on memory level*. The data type may be an implementation of another data structure like *linked lists*, *hash tables*, etc...
+
+In C arrays are described as [[Derived Data Types]]
 Its type is the same of the value's type stored inside it.
 
 ## Declaring and accessing arrays
