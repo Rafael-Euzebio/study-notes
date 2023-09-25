@@ -1,5 +1,5 @@
 # File Pointers
-File pointers are [[pointers]] to a *structure* of a stored file. Said structure contains all the information neecessary to work with that file through functions.
+File pointers are [[Pointer]] to a *structure* of a stored file. Said structure contains all the information neecessary to work with that file through functions.
 
 
 ## Functions
