@@ -21,4 +21,4 @@ int main(void)
 ```
 
 ## Memory Location
-A local variable is stored in the [[Stack]], in the higher addresses, and it's managed by [[Automatic Memory Allocation]]
+A local variable is stored in the [[Stack Segment]], in the higher addresses, and it's managed by [[Automatic Memory Allocation]]
