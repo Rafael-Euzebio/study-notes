@@ -19,5 +19,5 @@ int main(void)
 ```
 
 ## Memory Location
-A variable allocated automatically has its contents stored in the [[Stack Segment]] memory, where its contents are freed right after the program leaves its scope.  
+A variable allocated automatically has its contents stored in the [[Memory Stack]] memory, where its contents are freed right after the program leaves its scope.  
 The  

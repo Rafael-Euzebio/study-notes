@@ -1,8 +1,6 @@
-# Stack
-The stack is a reserved part of the system's memory used to allocate memory for [[Local Variable]] and functions.  
-
-## LIFO
-The stack is organized in an order named LIFO (Last In, First Out), when a function executes, its data (*local variables*) are added to the top of the stack, when that function exits (returns) its data is removed from the stack and the memory location can be used for another data, the information of which functions are stored in the stack is stored in the **Call Stack**
+# Memory Stack
+The Memory Stack is a reserved part of the system's memory used to allocate memory for [[Local Variable]] and functions.  
+The Memory Stack is an implementation in memory of a [[Stack]] *Abstract Data Type*
 
 ## Call Stack
 The Call Stack is a data structure responsible to store the information of which subroutines (functions) haven't yet exited, and are still active in the stack.
