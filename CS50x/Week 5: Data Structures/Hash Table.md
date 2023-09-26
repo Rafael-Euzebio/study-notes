@@ -29,3 +29,8 @@ This adds time complexity and increases the use of memory, but if the hash funct
 ### Open Adressing
 Open addressing records the keys and values in the buckets array itself. If a value has to be inserted in an already occupied slot, then the next free slot is selected.  
 When searching for a value, the program checks if the key given to the hash function matches the key stored in the array, if it does not the it checks the next index, until it finds the corresponding valur or an empty slot (which means an unsuccesful search).
+
+
+## Time Complexity
+A hash table's time complexity depends heavily on how the hash function is implemented.
+It's time's complexity ranges from $O(n)$ (*Linear Time*) to $O(1)$ *Constant Time*
