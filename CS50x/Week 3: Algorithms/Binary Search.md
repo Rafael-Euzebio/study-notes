@@ -73,4 +73,4 @@ int BinarySearch(int array[], int x, int low, int high)
 For binary search work correctly the data structure being searched must be sorted. This is done through [[Sorting Algorithms]]. This creates a trade off where to use a faster search algorithm an extra step must be taken before performing the search.
 
 ## Time Complexity
-Its time complexity is [[Logarithmic Time]]
+Its time complexity is *Logarithmic Time**

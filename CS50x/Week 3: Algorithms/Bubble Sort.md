@@ -63,4 +63,4 @@ void PrintArray(int array[], int size) {
 ```
 
 ## Performance
-Bubble Sort *Time Complexity* is [[Quadratic Time]], or $O(n^2)$, which makes it inneficient for large lists.
+Bubble Sort *Time Complexity* is *Quadratic Time*, or $O(n^2)$, which makes it inneficient for large lists.

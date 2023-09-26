@@ -107,4 +107,4 @@ void merge_sorted_arrays(int a[], int l, int m, int r)
 ```
 
 ## Time Complexity
-Merge Sort *Time Complexity* is [[Logarithmic Time]], or $O(n$ $log$ $n)$, which makes it efficient even for large lists.
+Merge Sort *Time Complexity* is *Logarithmic Time*, or $O(n$ $log$ $n)$, which makes it efficient even for large lists.

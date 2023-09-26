@@ -50,4 +50,4 @@ void SelectionSort(int data[], int size)
 ```
 
 ## Performance
-Selection Sort *Time Complexity* is [[Quadratic Time]] or $O(n^2)$, which makes it inneficient on large lists.
+Selection Sort Time Complexity is *Quadratic Time** or $O(n^2)$, which makes it inneficient on large lists.

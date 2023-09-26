@@ -16,6 +16,6 @@ bool function(int n[10], int to_search)
 }
 ```
 
-Its time complexity is [[Linear Time]], which means that as $n$ grows, it takes more and more operations to find the desired value, and can be represented as:
+Its time complexity is *Linear Time*, which means that as $n$ grows, it takes more and more operations to find the desired value, and can be represented as:
 $O(n)$
 
