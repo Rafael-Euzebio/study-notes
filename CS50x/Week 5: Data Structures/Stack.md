@@ -4,9 +4,9 @@ The name is an analogy to a set of physical elements stacked on top of each othe
 
 ## Operations
 A Stack has 3 different operations allowed to it: 
-- Push: Adds an element to the stack
-- Pop: Removes the most recent element added to the stack
-- Peek: Gives the value of the last element added to the stack
+- **Push**: Adds an element to the stack
+- **Pop**: Removes the most recent element added to the stack
+- **Peek**: Gives the value of the last element added to the stack
 
 
 ## Behavior
