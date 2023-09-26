@@ -2,7 +2,7 @@
 A linked list is a data structure of a linear collection of elements. The elements are not stored sequentially in memory, like and *array*, instead, each element points to the address of the next one.
 
 ## Structure
-A linked list is made of *nodes*, each node has a *data* and a *reference field  
+A linked list is made of *nodes*, each node has a *data* and a *reference* field  
 
 `data` = the value stored in that node
 `reference` =  the address of the next node
