@@ -2,7 +2,7 @@
 A hash table is a data structure which implements an [[Associative Arrays]], by mapping *keys* to *values*, indexing them with a [[Hash Function]]
 
 ## Structure
-A hash table consists of an [[Arrays]] of *values*, commonly called *buckets*, each one stored in an specific index of that array. The index used to store that value is calculated by it's correspondent *key*.
+A hash table consists of an arrays of *values*, commonly called *buckets*, each one stored in an specific index of that array. The index used to store that value is calculated by it's correspondent *key*.
 
 ### Inserting
 Insertion works by giving the key to a *hash function*, which will compute an *index*, also called a *hash code*. That index is then used to store the value in the array.
