@@ -1,5 +1,5 @@
 # Associative Arrays
-Associative Arrays are [[Abstract Data Types]] which defines an [[Arrays]] that stores a collection of pairs (*key* and *value*).
+Associative Arrays are [[Abstract Data Type]] which defines an [[Arrays]] that stores a collection of pairs (*key* and *value*).
 The indexes are referenced through the *key*, and which is searched and it's correspondent *value* is returned
 
 ## Operations
