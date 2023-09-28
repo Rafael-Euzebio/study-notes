@@ -16,44 +16,47 @@ We start by creating the structure of a node
 ```c
 typedef struct node
 {
-    int number;
+    int data;
     struct node *next;
 } node;
 ```
 
-### Inserting Nodes
-To insert a node we need to:  
+### Creating a Linked List
+To create a linked list we first need to create our `root` node.
+
 1. Allocate memory for that node
-2. Setting it's `next` field to `NULL`
-3. Return the address of that node. In case of a *root* node, that address will be stored in a variable in `main` function for further use.
+2. Set it's `next` field to `NULL`
+3. Fill it's `data` field
+4. Return it's address
 
 ```c
 int main()
 {
-    node *root = CreateNode();
+    node *root = CreateRoot();
 }
 
-node *CreateNode()
+node *CreateRoot(int value)
 {
-    node *new_node = malloc(sizeof(node));
-    
-    new_node -> next = NULL;
-    return new_node;
+    node *root = malloc(sizeof(node));
+    root -> next = NULL;
+    root -> data  = value;
+
+    return root;
 }
 ```
 
+### Inserting Nodes
 #### Tail Insert
 Tail Insert refers to a linked list which new nodes and values are inserted at the very end, one after the other.  
 The steps to do that are:
 1. Iterate through all nodes, starting at the root. 
 2. Check if current node points to a `NULL` value
-    - If current node pointers to another node, set current node to `next`
+    - If current node pointers to another node, set current node to `next` and repeat
 3. Create new node
-4. Insert `value` in current node
-
+    - We can use the earlier function `CreateRoot()` to do that. Each node is a "root" to the next one
 
 ```c
-void InsertValue(node *root, int number)
+void InsertNode(node *root, int value)
 {
     node *current_node = root;
 
@@ -62,8 +65,7 @@ void InsertValue(node *root, int number)
         current_node = current_node -> next;
     }
 
-    current_node -> next = CreateNode();
-    current_node -> number = number;
+    current_node -> next = CreateRoot(value);
 }
 ```
 
@@ -79,15 +81,14 @@ The steps to do that are:
 4. Change `root` pointer to point to new node (new root).
 
 ```c
-void InsertValue(node **root, int number)
+void InsertNode(node **root, int value)
 {
-    node *new_node = CreateNode();
-    new_node -> number = number;
-    new_node -> next = *root; 
-    *root = new_node;
+    node *new_root = CreateRoot(value);
+    new_root -> next = *root;
+    *root = new_root;
 }
 ```
-The vantage of Head Insert is that inserting a new node is always constant time complexity $O(1)$ 
+The advantage of Head Insert is that inserting a new node is always constant time complexity $O(1)$ 
 
 ### Searching
 A linked list cannot be searched with Binary Search or any other search algorithm other than Linear Search. There's no pointer to an arbitrary position of the list. It must be searched from the beggining to the end
@@ -95,7 +96,43 @@ A linked list cannot be searched with Binary Search or any other search algorith
 1. Iterate through all the nodes
 2. Check if the value being searched for is in the current node
     - If it isn't, set the current node as the next one
-3. If reaches a nodes that pointers to `NULL`, value isn't in the list.
+3. If reaches a nodes that equals to `NULL`, value isn't in the list.
 
-## Pros and Cons
-A linked list can have values added to it without having to worry about enough memory being allocated in advance, unlike arrays, which must be reallocated to store more values than it size allows.
+
+```c
+bool SearchValue(node *root, int value)
+{
+    node *current_node = root;
+    while (current_node != NULL)
+    {
+        if (current_node -> data == value)
+        {
+            return true;
+        }
+        else{
+            current_node = current_node -> next;
+        }
+    }
+    return false;
+}
+```
+
+### Deleting List
+Deleting a whole linked list must be done by `free`ing node by node. If we just free the root node, we will be left with a huge memory leak from the orphan nodes.  
+A linked list can be `free`d easily through recursion
+
+1. Start at the first node
+    - If it isn't null, recall function passing the next node as argument
+    - Free current node
+
+```c
+void DeleteList(node *root)
+{
+    node *current_node = root;
+    if (current_node != NULL)
+    {
+        DeleteList(current_node -> next);
+        free(current_node);
+    }
+}
+```
