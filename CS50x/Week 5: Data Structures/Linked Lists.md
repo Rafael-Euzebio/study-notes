@@ -7,7 +7,7 @@ There are multiple types of linked lists:
 - [[Doubly-Linked Lists]]: Linked lists that each node has two pointers, pointing to the previous and next element in the list.
 
 ## Use
-Lists are a simple data structure that can be used to implement many *Abstract Data Types*, like [[Stack]] and [[Queue]
+Lists are a simple data structure that can be used to implement many *Abstract Data Types*, like [[Stack]] and [[Queue]]
 
 ## Pros and Cons
 A linked list can have values added to it without having to worry about enough memory being allocated in advance, unlike arrays, which must be reallocated to store more values than it size allows.
