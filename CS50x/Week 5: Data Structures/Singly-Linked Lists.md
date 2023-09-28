@@ -122,17 +122,20 @@ Deleting a whole linked list must be done by `free`ing node by node. If we just 
 A linked list can be `free`d easily through recursion
 
 1. Start at the first node
-    - If it isn't null, recall function passing the next node as argument
-    - Free current node
+    - While it isn't null, recall function passing the next node as argument
+        - Free current node
+        - Set it to `NULL`
 
 ```c
 void DeleteList(node *root)
 {
     node *current_node = root;
-    if (current_node != NULL)
+
+    while (current_node != NULL)
     {
         DeleteList(current_node -> next);
         free(current_node);
+        current_node  = NULL;
     }
 }
 ```
