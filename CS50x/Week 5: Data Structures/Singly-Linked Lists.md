@@ -1,5 +1,5 @@
 # Singly Linked Lists
-A singly-linked list is a data structure of a linear collection of elements. The elements are not stored sequentially in memory, like and *array*, instead, each element points to the address of the next one.
+A singly-linked list is a [[Linked Lists]] data structure, a linear collection of elements. The elements are not stored sequentially in memory, like and *array*, instead, each element points to the address of the next one.
 
 ## Structure
 A singly-linked list is made of *nodes*, each node has a *data* and a *next* field  
