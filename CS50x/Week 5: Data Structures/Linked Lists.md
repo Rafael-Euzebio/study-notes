@@ -1,81 +1,10 @@
 # Linked Lists
-A linked list is a data structure of a linear collection of elements. The elements are not stored sequentially in memory, like and *array*, instead, each element points to the address of the next one.
+A linked lists is a data structure that stores a collection of elements, linking one to the next. In memory, a linked list isn't stored sequentially, like an array. Instead, every *node* in a linked list has a *pointer* to the next node.
 
-## Structure
-A linked list is made of *nodes*, each node has a *data* and a *reference* field  
-
-`data` = the value stored in that node
-`reference` =  the address of the next node
-
-## Use
-Lists are a simple data structure that can be used to implement many *Abstract Data Types*, like [[Stack]] and [[Queue]]
-
-
-## Example
-Example of a linked list which inserts elements like a *stack*
-```c
-#include <stdio.h>
-#include <stdlib.h>
-
-// Defining node struct
-typedef struct node
-{
-    int number;
-    struct node *next;
-}node;
-
-int main(int argc, char *argv[])
-{
-    //Initializing a pointer list to a node
-    node *list = NULL;
-
-    // Looping through argv values
-    for (int i = 1; i < argc; i++)
-    {
-        //Converting arguments to int
-        int number = atoi(argv[i]);
-
-        // Creating a pointer n to a node;
-        node *n = malloc(sizeof(node));
-
-        if (n == NULL)
-        {
-            return 1;
-        }
-
-        // Assigning values to node n 
-        n -> number = number;
-        n -> next = NULL;
-
-        // Linking new node to the last added node (null if it's first iteration)
-        n -> next = list;
-
-        // list pointer points to the new node
-        list = n;
-    }
-
-    /// Iterating through list and printing values
-    node *ptr = list;
-
-    while (ptr != NULL)
-    {
-        printf("%i\n", ptr -> number);
-        ptr = ptr -> next;
-    }
-
-
-    /// Iterating through list and freeing pointers
-    ptr = list;
-
-    while (ptr != NULL)
-    {
-        node *next = ptr -> next;
-        free(ptr);
-        ptr = next;
-    }
-
-}
-```
+## Types of Linked Lists
+There are multiple types of linked lists:
+- [[Singly-Linked Lists]]: Linked lists that each node has only a single pointer, pointing to the next element in the list.
+- [[Doubly-Linked Lists]]: Linked lists that each node has two pointers, pointing to the previous and next element in the list.
 
 ## Pros and Cons
 A linked list can have values added to it without having to worry about enough memory being allocated in advance, unlike arrays, which must be reallocated to store more values than it size allows.
