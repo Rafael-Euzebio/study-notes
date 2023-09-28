@@ -7,9 +7,6 @@ A singly-linked list is made of *nodes*, each node has a *data* and a *next* fie
 `data` = the value stored in that node
 `next` =  the address of the next node
 
-## Use
-Lists are a simple data structure that can be used to implement many *Abstract Data Types*, like [[Stack]] and [[Queue]]
-
 ## Example
 We start by creating the structure of a node
 
