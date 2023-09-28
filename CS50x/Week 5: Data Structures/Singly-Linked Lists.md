@@ -22,9 +22,9 @@ typedef struct node
 To create a linked list we first need to create our `root` node.
 
 1. Allocate memory for that node
-2. Set it's `next` field to `NULL`
-3. Fill it's `data` field
-4. Return it's address
+2. Set its `next` field to `NULL`
+3. Fill its `data` field
+4. Return its address
 
 ```c
 int main()
