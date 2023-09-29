@@ -48,7 +48,7 @@ Tail Insert refers to a linked list which new nodes and values are inserted at t
 The steps to do that are:
 1. Iterate through all nodes, starting at the root. 
 2. Check if current node points to a `NULL` value
-    - If current node pointers to another node, set current node to `next` and repeat
+    - If current node points to another node, set current node to `next` and repeat
 3. Create new node
     - We can use the earlier function `CreateRoot()` to do that. Each node is a "root" to the next one
 
