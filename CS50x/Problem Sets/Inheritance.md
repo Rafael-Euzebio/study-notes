@@ -48,11 +48,11 @@
 ### TODO
 
 #### create_family
-- [ ] Allocate memory for a new person
-- [ ] Create parents recursively
-- [ ] Set parents pointers in case `generation > 1` and assign alleles
-- [ ] Set parents pointers to NULL in case `generations == 1` and get alleles randomically
-- [ ] Return a pointer for the `person` that was allocated
+- [x] Allocate memory for a new person
+- [x] Create parents recursively
+- [x] Set parents pointers in case `generation > 1` and assign alleles
+- [x] Set parents pointers to NULL in case `generations == 1` and get alleles randomically
+- [x] Return a pointer for the `person` that was allocated
 
 #### free_family
 - [ ] `free` parents recursively, and then `free` child 
