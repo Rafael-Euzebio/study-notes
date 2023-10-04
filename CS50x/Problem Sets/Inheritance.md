@@ -55,4 +55,4 @@
 - [x] Return a pointer for the `person` that was allocated
 
 #### free_family
-- [ ] `free` parents recursively, and then `free` child 
+- [x] `free` parents recursively, and then `free` child 
