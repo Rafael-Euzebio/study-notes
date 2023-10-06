@@ -86,7 +86,7 @@
 
 
 ## TODO
-- [ ] Implemente `load`
+- [ ] Implement `load`
 - [ ] Implement `hash`
 - [ ] Implement `size`
 - [ ] Implement `check`
