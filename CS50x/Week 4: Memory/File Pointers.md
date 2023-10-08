@@ -5,6 +5,18 @@ File pointers are [[Pointer]] to a *structure* of a stored file. Said structure 
 ## Functions
 All funtions below comes from the `stdio.h` library. These are not all functions related to file manipulation, just the most common ones.
 
+| Function | Description     |
+| -------- | --------------- |
+| `fopen()`| Opens a file    |
+| `fclose()`| Closes a file    |
+| `fgetc()`| Gets a `char` from a file|
+| `fputc()`| Inserts a `char` into a file|
+| `fread()`| Reads a given amount of bytes from a file|
+| `fwrite()`| Writes a given amount of bytes into a file|
+| `fseek()`| Changes the current position where information can be written/be read into/from the file|
+| `ftell()`| Returns the current position where information can be written/be read into/from the file|
+| `fgets()`| Reads a line from the file|
+
 - fopen
 - fclose
 - fgetc
@@ -134,3 +146,15 @@ long int ftell(FILE *stream)
 Returns the current file position of a file stream
 
 `FILE *stream` = File pointer
+
+### fgets
+```c
+fgets(char *str, int n, , FILE *stream)
+```
+
+fgets reads a line from the file, and stores it in a buffer. It stops when the size `n` is reached or it reaches a new line
+
+`*str` = Buffer to store the string   
+`n` = Maximum amount of characters to be read. Usually the size of `*str`  
+`FILE *stream` = File pointer
+
