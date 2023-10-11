@@ -86,13 +86,14 @@
 
 
 ## TODO
-- [ ] Implement `load`
-    - [ ] Open dictionary file
-    - [ ] Read strings from file one at a time
-    - [ ] Create a new node for each word
-    - [ ] Hash word to obtain a hash value
-    - [ ] Insert node into hash table at that location
-- [ ] Implement `hash`
+- [x] Implement `load`
+    - [x] Open dictionary file
+    - [x] Read strings from file one at a time
+    - [x] Create a new node for each word
+    - [x] Hash word to obtain a hash value
+    - [x] Insert node into hash table at that location
+    - [ ] Use a trie instead of a linked list
+- [x] Implement `hash`
 - [ ] Implement `size`
 - [ ] Implement `check`
 - [ ] Implement `unload`
