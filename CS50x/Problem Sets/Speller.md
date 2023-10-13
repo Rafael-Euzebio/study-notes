@@ -99,4 +99,4 @@
     - [x] `hash` word from text
     - [x] Transverse dictionary linked list at the index returned from `hash` checking for the word
     - [x] Return true if word is in dictionary or false if it's not
-- [ ] Implement `unload`
+- [x] Implement `unload`
