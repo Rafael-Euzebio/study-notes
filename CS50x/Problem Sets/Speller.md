@@ -94,6 +94,6 @@
     - [x] Insert node into hash table at that location
     - [ ] Use a trie instead of a linked list
 - [x] Implement `hash`
-- [ ] Implement `size`
+- [x] Implement `size`
 - [ ] Implement `check`
 - [ ] Implement `unload`
