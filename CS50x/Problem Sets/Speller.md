@@ -96,4 +96,7 @@
 - [x] Implement `hash`
 - [x] Implement `size`
 - [ ] Implement `check`
+    - [ ] `hash` word from text
+    - [ ] Transverse dictionary linked list at the index returned from `hash` checking for the word
+    - [ ] Return true if word is in dictionary or false if it's not
 - [ ] Implement `unload`
