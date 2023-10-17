@@ -1,5 +1,5 @@
 # GDB
-GDB (GNU Debugger) is a debugger (or [[Debugging]] tool) used to debug several programming languages, like [[C],] C++, Rust and others.
+GDB (GNU Debugger) is a debugger (or [[CS50x Debugging]] tool) used to debug several programming languages, like [[C],] C++, Rust and others.
 
 ## Commands
 GDB is a command-line tool and can be started with
