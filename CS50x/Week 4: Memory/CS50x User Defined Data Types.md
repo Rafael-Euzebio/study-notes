@@ -5,5 +5,4 @@ Some "User Defined Data Types" are also [[CS50x Derived Data Types]]
 ## User Defined Data Types in C
 - [[CS50x Structures]]
 - [[CS50x Typedef]]
-- [[Enumeratiosn]]
 - [[CS50x Void]]

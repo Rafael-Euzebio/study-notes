@@ -1,7 +1,3 @@
----
-alias: C Data Type
-alias: Data Type
----
 # C Data Types
 In [[CS50x C]] a data type is an attribute that tells a computer how to interpret a variable's value. 
 A data type is limited by a set of allowed operations or representations of the values stored in them. 
