@@ -23,3 +23,4 @@ The above codeblock creates a class `Car()` with 3 data fields:
 
 And one method
 - `repaint`
+Which can directly change the `color` field in an object of that class
