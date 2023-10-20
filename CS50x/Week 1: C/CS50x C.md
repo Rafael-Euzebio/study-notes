@@ -1,5 +1,5 @@
 # C
-C is a general-purpose low level [[CS50x Programming Language]]. It's widely adopted, used in computers that range from microcontrollers to supercomputers.
+C is a low level [[ST Procedural Programming]] [[CS50x Programming Language]].
 
 ## Relations to other languages
 Many languages have borrowed directly or indirectly from C, like C++ C#, Javascript, Java, Python etc....
