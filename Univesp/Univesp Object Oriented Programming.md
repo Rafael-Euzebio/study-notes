@@ -24,13 +24,7 @@ I have a White Toyota AE86
 I have a Black Toyota AE86
 ```
 
-The above codeblock defines a [[Univesp Class]] `Car` with 3 data fields:
-- `color`
-- `brand`
-- `model`
-
-And one method
-- `repaint`
+The above codeblock defines a [[Univesp Classes]] `Car()` with 3 data fields and one method
 
 An object of that class must have these 3 data fields specified, and one of these fields can be changed by the `repaint` method
 
