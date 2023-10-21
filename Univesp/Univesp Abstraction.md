@@ -16,3 +16,5 @@ But if our code only makes use of the first three properties, all the others are
 - Color
 - Brand
 - Model
+
+A class with only these 3 properties is the abstraction of a `Car`
