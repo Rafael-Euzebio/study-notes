@@ -2,7 +2,7 @@
 Methods are [[CS50x Functions]] inside [[Univesp Objects]] that changes the properties of said object
 These methods can be called by referencing them through the object, instead of passing the object as an argument to a function
 
-A method is either a [[Univesp Getter]], [[Univesp Setter]] or a [[Univesp Constructor]]
+A method is either a [[Univesp Getters]], [[Univesp Setters]] or a [[Univesp Constructor]]
 
 ## `this` and `self`
 A method can act on its own object by a keyword `self` or `this`, which references the object itself, and then access the fields of that object
@@ -35,4 +35,4 @@ class Car {
 The above codeblock creates 3 methods
 - A constructor
 - A public setter
-- A public getter
+- A public gett/ser

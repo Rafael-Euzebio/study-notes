@@ -18,9 +18,9 @@ class Car {
         return this.speed;
     }
 
-    public String color; 
-    public String brand;
-    public String model;
+    private String color; 
+    private String brand;
+    private String model;
     private int speed = 0;
 }
 ```
