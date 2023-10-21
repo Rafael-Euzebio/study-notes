@@ -1,28 +1,15 @@
 # Encapsulation
-Encapsulation is a [[Univesp Objects Oriented Programming]] concept which consists of hiding the implementations of [[Univesp Methods]] inside an object  
-The methods of an object can, essentially, be hid from the end user and even from the programmer, as long as it does what it is expected to do
+Encapsulation is a [[Univesp Objects Oriented Programming]] concept which consists of hiding the properties and implementation of an object through [[Univesp Methods]]
+The properties of an object can, essentially, be hid from the programmer as long as it does what it is expected to do
 
 ## Example
-```py
-mylist = [0, 80, 20, 40, 80]
-print(mylist)
+Given an object `myCar` with 4 properties:
+- color
+- brand
+- model
+- speed
 
-mylist.sort()
-
-print(mylist)
-```
-```
-[0, 80, 20, 10, 50]
-[0, 10, 20, 50, 80]
-```
-In the above codeblock a `.sort()` method sorts a list object. Unless we decide to dive in in Python's source code, we don't know how `.sort()` is implemented, what kind of sorting algorithms it uses, etc. All we know is that it sorts a list
-
-Even if the list contains a data type that might be tricky to sort, like `strings`
-
-```py
-mylist = ["0", "80", "20", "40", "80"]
-```
-```
-['0', '80', '20', '40', '80']
-['0', '20', '40', '80', '80']
-```
+These properties can be changed or returned through `myCar.(property)`  
+But this is considered a bad practice in *Object Oriented Programming*. Instead we should:  
+- Make other objects unable to access the properties of `myCar` by using the [[Univesp Acesss Modifiers]] `private`
+- Change and return the properties through [[Univesp Getters]] and [[Univesp Setters]] methods
