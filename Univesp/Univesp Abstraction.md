@@ -1,6 +1,6 @@
 # Abstraction
 Abstraction is a [[Univesp Object Oriented Programming]] concept  
-It consists of removing information that is not required to work with an [[Univesp Objects]]
+It consists of removing information that is not required to work with an objects
 
 ## Example
 A class `Car` could have the following properties:
