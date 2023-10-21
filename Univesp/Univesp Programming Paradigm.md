@@ -4,4 +4,4 @@ Programming paradigms is a way to classify [[CS50x Programming Language]] by the
 Some programming paradigms are:
 - [[ST Structured Programming]]
 - [[ST Procedural Programming]]
-- [[Univesp Object Oriented Programming]]
+- [[Univesp Objects Oriented Programming]]

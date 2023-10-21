@@ -75,5 +75,5 @@ I have a Black Toyota AE86
 
 
 #### Advantages
-The advantage of *Object Oriented* approach is that the same method can exist in other classes, e.g, a `Motobike` class, and be reused  
+The advantage of *Objects Oriented* approach is that the same method can exist in other classes, e.g, a `Motobike` class, and be reused  
 In procedural programming the `repaint` function takes strictly a `Car` structure as argument, and a second function would have to be declared for other structures

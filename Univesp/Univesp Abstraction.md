@@ -1,5 +1,5 @@
 # Abstraction
-Abstraction is a [[Univesp Object Oriented Programming]] concept  
+Abstraction is a [[Univesp Objects Oriented Programming]] concept  
 It consists of removing information that is not required to work with an objects
 
 ## Example

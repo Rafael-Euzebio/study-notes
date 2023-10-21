@@ -1,5 +1,5 @@
 # Encapsulation
-Encapsulation is a [[Univesp Object Oriented Programming]] concept which consists of hiding the implementations of [[Univesp Methods]] inside an object  
+Encapsulation is a [[Univesp Objects Oriented Programming]] concept which consists of hiding the implementations of [[Univesp Methods]] inside an object  
 The methods of an object can, essentially, be hid from the end user and even from the programmer, as long as it does what it is expected to do
 
 ## Example
