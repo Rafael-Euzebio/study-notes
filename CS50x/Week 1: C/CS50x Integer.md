@@ -1,5 +1,5 @@
 # Integer
-Integer is a [[Primitive Data Types|Primitive Data Type]] used to store real numbers. It cannot store decimal values.
+Integer is a [[CS50x Primitive Data Types]] used to store real numbers. It cannot store decimal values.
 
 - Size (bytes):  At least 2, usually 4 (system dependent)
 - Format specifier: %d or %i

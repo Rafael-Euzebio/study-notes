@@ -1,7 +1,3 @@
----
-alias: Sorting Algorithm
----
-
 # Sorting Algorithms
 A Sorting Algorithms are [[CS50x Algorithms]] that sorts elements of a list, array or some other type of structure.  
 

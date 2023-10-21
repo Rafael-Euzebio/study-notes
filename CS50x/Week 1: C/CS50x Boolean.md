@@ -1,5 +1,5 @@
 # Boolean
-Boolean is a [[C Data Types|Data Type]] that can hold one of two values, *true* or *false*, also represented as 0 or 1.
+Boolean is a [[CS50x C Data Types]] that can hold one of two values, *true* or *false*, also represented as 0 or 1.
 
 ## In C
 In C boolean is not a built in data type. Instead integer numbers, 0 and 1, are used to identify if a value is *true* or *false* To use it the library *stdbool.h* has to be imported.

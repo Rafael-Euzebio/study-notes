@@ -1,8 +1,5 @@
----
-alias: Primitive Data Type
----
 # Primitive Data Type
-Primitive Data Types are [[C Data Types|Data Types]] that come built in with the C language. Thus all C compilers support these data types.
+Primitive Data Types are [[CS50x C Data Types]] that come built in with the C language. Thus all C compilers support these data types.
 
 ## Types
 C comes with 4 built in data types, these are:

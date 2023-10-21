@@ -1,5 +1,5 @@
 # Double
-Double is a [[Primitive Data Types|Primitive Data Type]] used to store decimal numbers with *floating points*.
+Double is a [[CS50x Primitive Data Types]] used to store decimal numbers with *floating points*.
 
 - Size (bytes): 8
 - Format specifier: %lf

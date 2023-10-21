@@ -1,5 +1,5 @@
 # Float
-Float is a [[Primitive Data Types|Primitive Data Type]] used to store decimal numbers and exponential numbers with *floating points*.
+Float is a [[CS50x Primitive Data Types]] used to store decimal numbers and exponential numbers with *floating points*.
 
 - Size (bytes): 4
 - Format Specifier: %f

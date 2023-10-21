@@ -1,5 +1,5 @@
 # Linear Search
-Lnear Search is a [[Search Algorithms|Search Algorithm]] for searching an item within a list, checking each element of the list until it is found or the whole list is searched.
+Lnear Search is a [[Search Algorithms]] for searching an item within a list, checking each element of the list until it is found or the whole list is searched.
 
 ## Example
 Below an example of a linar search algorithm in C:

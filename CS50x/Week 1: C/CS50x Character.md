@@ -1,5 +1,5 @@
 # Character
-Character is a [[Primitive Data Types|Primitive Data Type]] which can store only a single character. It's the most basic data type in C.
+Character is a [[CS50x Primitive Data Types]] which can store only a single character. It's the most basic data type in C.
 - Size (bytes): 1
 - Format Specifier: %c or *%s (with arrays)*
 

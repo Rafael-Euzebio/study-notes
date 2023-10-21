@@ -1,7 +1,3 @@
----
-alias: Search Algorithm
----
-
 # Search Algorithms
 Search Algorithms are [[CS50x Algorithms]] that retrieves information from a data structure.
 

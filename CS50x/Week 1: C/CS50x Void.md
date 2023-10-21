@@ -1,5 +1,5 @@
 # Void
-Void is a [[C Data Types|data type]] in C, it is used to specify that no value is present. It represents nothing. 
+Void is a [[CS50x C Data Types]] in C, it is used to specify that no value is present. It represents nothing. 
 Its used mainly with functions, indicating they don't return any value or don't take any arguments.
 
 ## Example
