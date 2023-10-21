@@ -2,33 +2,48 @@
 Object Oriented Programming is a [[Univesp Programming Paradigm]] based on [[Univesp Objects]].   
 The objects contain *data*, that stores information about the object and *code*, also known as *methods*, that perform actions in the objects
 
-```py
-class Car():
-    def __init__(self, color, brand, model):
-        self.color = color
-        self.brand = brand
-        self.model = model
-    
-    def repaint(self, color):
-        self.color = color
+```java
+class Car {
+    public Car(String color, String brand, String model) {
+        this.color = color;
+        this.brand = brand;
+        this.model = model;
+    }
 
-    def printCar(self):
-        print("I have a", self.color, self.brand, self.model)
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
 
-myCar = Car("White", "Toyota", "AE86")
+    public int getSpeed() {
+        return this.speed;
+    }
 
-
-myCar.printCar()
-myCar.repaint("Black")
-myCar.printCar()
+    public String color; 
+    public String brand;
+    public String model;
+    private int speed = 0;
+}
 ```
 
+```java
+public static void main(String[] args) {
+    Car myCar = new Car("White", "Toyota", "AE86"); 
+
+    System.out.println(myCar.getSpeed());
+
+    myCar.setSpeed(100);
+
+    System.out.println(myCar.getSpeed());
+}    
 ```
-I have a White Toyota AE86
-I have a Black Toyota AE86
-```
+The above codeblock defines a [[Univesp Classes]] `Car()` with 4 data fields and 3 methods (one of them being a `constructor`)
 
-The above codeblock defines a [[Univesp Classes]] `Car()` with 3 data fields and two method
-
-An object of that class must have these 3 data fields specified, and one of these fields can be changed by the `repaint` method
-
+- `color`
+    - Specified when creating the object myCar(`color`, `brand`, model)
+- `brand`
+    - Specified when creating the object myCar(`color`, `brand`, model)
+- `model`
+    - Specified when creating the object myCar(`color`, `brand`, model)
+- `speed`
+    - Can be returned from the `getSpeed` method
+    - Can be changed from the `setSpeed` method
