@@ -1,5 +1,5 @@
 # Selection Sort
-Selection Sort is a [[Sorting Algorithms|Sorting Algorithm]] that takes the smallest element in an array and places it at the beginning of the array.
+Selection Sort is a [[CS50x Sorting Algorithms]] that takes the smallest element in an array and places it at the beginning of the array.
 
 ## Pseudocode
 ```

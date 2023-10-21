@@ -1,5 +1,5 @@
 # Merge Sort
-Merge Sort is a [[Sorting Algorithms|Sorting Algorithm]] that divides its input in half several times, sorts them separately and merges them.  
+Merge Sort is a [[CS50x Sorting Algorithms]] that divides its input in half several times, sorts them separately and merges them.  
 Its based on the principle of [[Divide and Conquer Algorithm]], usually through the use of [[CS50x Recursion]]
 ## Pseudocode
 ```

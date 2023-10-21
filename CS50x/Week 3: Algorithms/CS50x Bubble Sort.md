@@ -1,5 +1,5 @@
 # Bubble Sort
-Bubble Sort is a [[Sorting Algorithms|Sorting Algorithm]] that takes larger elements in a array and places it at the end.  
+Bubble Sort is a [[CS50x Sorting Algorithms]] that takes larger elements in a array and places it at the end.  
 Its called "bubble sort" because the larger elements bubble their way up in the array, like air bubbles in water rising to the surface  
 
 ## Pseudocode
