@@ -18,12 +18,16 @@ class Car():
     def repaint(self, color):
         self.color = color
 
+
+    def printCar(self):
+        print("I have a", self.color, self.brand, self.model)
+
 myCar = Car("White", "Toyota", "AE86")
 
 
-print("I have a", myCar.color, myCar.brand, myCar.model)
+myCar.printCar()
 myCar.repaint("Black")
-print("I have a", myCar.color, myCar.brand, myCar.model)
+myCar.printCar()
 ```
 
 
