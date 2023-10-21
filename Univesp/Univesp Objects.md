@@ -1,32 +1,43 @@
 # Objects
 An object is an instance of a [[Univesp Classes]]. While an class is an *abstraction*, an object is *concrete*.  
 That means an object has information stored in it that describes that object
+```java
+class Car {
+    public Car(String color, String brand, String model) {
+        this.color = color;
+        this.brand = brand;
+        this.model = model;
+    }
 
-```py
-class Car():
-    def __init__(self, color, brand, model):
-        self.color = color
-        self.brand = brand
-        self.model = model
-    
-    def repaint(self, color):
-        self.color = color
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
 
+    public int getSpeed() {
+        return this.speed;
+    }
 
-    def printCar(self):
-        print("I have a", self.color, self.brand, self.model)
-
-myCar = Car("White", "Toyota", "AE86")
-
-
-myCar.printCar()
-myCar.repaint("Black")
-myCar.printCar()
-```
-```
-I have a White Toyota AE86
-I have a Black Toyota AE86
+    public String color; 
+    public String brand;
+    public String model;
+    private int speed = 0;
+}
 ```
 
-The above codeblock creates a class `Car` and an object `myCar`, with the properties `White`, `Toyota` and `AE86`, prints it and then changes one of the properties to `Black`
+```java
+
+public static void main(String[] args) {
+    Car myCar = new Car("White", "Toyota", "AE86"); 
+
+    System.out.println(myCar.getSpeed());
+
+    myCar.setSpeed(100);
+
+    System.out.println(myCar.getSpeed());
+}
+
+```
+
+The above codeblock creates a class `Car` and an object `myCar`, with the properties `White`, `Toyota` and `AE86`, prints it and then changes one of the properties to ``
+
 
