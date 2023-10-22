@@ -1,5 +1,5 @@
 # Methods
-Methods are [[CS50x Functions]] inside [[Univesp Objects]] that changes the properties of said object
+Methods are [[CS50x Functions]] inside [[Univesp Objects]]. They can interact with other objects or with the properties of its own object. A method is the *behavior* of an object.
 These methods can be called by referencing them through the object, instead of passing the object as an argument to a function
 
 A method is either a [[Univesp Getters]], [[Univesp Setters]] or a [[Univesp Constructors]]
