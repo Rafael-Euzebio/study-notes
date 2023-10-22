@@ -36,3 +36,5 @@ The above codeblock creates 3 methods
 - A constructor
 - A public setter
 - A public gett/ser
+
+A method may or may not be [[Univesp Static]]
