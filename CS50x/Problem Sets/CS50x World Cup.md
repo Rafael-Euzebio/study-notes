@@ -47,3 +47,5 @@
     - [x] Read csv file as a dictionary
     - [x] Convert ratings to integer
     - [x] Add each team and its ratings to `teams` list
+- `simulate_tournament`
+    - [x] Call `simulate_round` repeatedly until there's only a single team
