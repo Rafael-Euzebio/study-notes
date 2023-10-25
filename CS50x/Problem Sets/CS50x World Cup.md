@@ -43,7 +43,7 @@
 
 ## TODOS
 - `main`
-    - [ ] Open csv file provided by user
-    - [ ] Read csv file as a dictionary
-    - [ ] Convert ratings to integer
-    - [ ] Add each team and its ratings to `teams` list
+    - [x] Open csv file provided by user
+    - [x] Read csv file as a dictionary
+    - [x] Convert ratings to integer
+    - [x] Add each team and its ratings to `teams` list
