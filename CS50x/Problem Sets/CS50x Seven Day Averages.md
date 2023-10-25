@@ -13,6 +13,6 @@
     - return must be the `new_cases` dictionary
 
 ### comparative_average
-- [ ] Get a 7-day average for the selected state
-    - [ ] Get a 7-day average for the previous week
-        - [ ] Calculate the difference in percentage of the two
+- [x] Get a 7-day average for the selected state
+    - [x] Get a 7-day average for the previous week
+        - [x] Calculate the difference in percentage of the two
