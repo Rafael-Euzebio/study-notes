@@ -1,5 +1,5 @@
 # Python
-Python is a high-level [[CS50x Programming Language]]
+Python is a high-level [[ST Multiparadigm]] [[CS50x Programming Language]]
 
 ## Syntax
 Python syntax is designed to improved code readability
