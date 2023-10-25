@@ -41,3 +41,9 @@
     - sorts team in descending order according to `counts`
     - prints the estimated probability that each team wins the World Cup
 
+## TODOS
+- `main`
+    - [ ] Open csv file provided by user
+    - [ ] Read csv file as a dictionary
+    - [ ] Convert ratings to integer
+    - [ ] Add each team and its ratings to `teams` list
