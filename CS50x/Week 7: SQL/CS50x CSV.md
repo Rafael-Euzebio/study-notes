@@ -1,5 +1,5 @@
 # CSV
-CSV (Comma-separated values) is a text file used to store databases.  
+CSV (Comma-separated values) is a text file used to store databases.  It is a [[CS50x Flat-File Database]]
 
 ## Structure
 The first line of a CSV are the headers and the following lines are the records. Each value is separated by a comma
