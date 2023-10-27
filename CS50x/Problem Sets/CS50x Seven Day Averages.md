@@ -1,4 +1,6 @@
 # Seven Day Average
+[[CS50x Problem Sets]]
+
 - Covid cases are tracked using a 7-day average
 - NYT tracks daily cases in a CSV file
     - The file is requested and stored in a CSV file
