@@ -36,5 +36,5 @@
 
 - [x] Load the csv file and read its contents
 - [x] Load the DNA file and read its contents
-- [ ] For each of the STR call `longest_match` to get how many times each STR repeats in the DNA
-    - [ ] If the values returned match someone in the CSV files, print the name
+- [x] For each STR call `longest_match` to get how many times each STR repeats in the DNA
+    - [x] If the values returned match someone in the CSV files, print the name
