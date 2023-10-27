@@ -34,7 +34,7 @@
     - csv file with STR counts (list of individuals)
     - DNA text file with a sequence to identify
 
-- [ ] Load the csv file and red its contents
-- [ ] Load the DNA file and read its contents
+- [x] Load the csv file and read its contents
+- [x] Load the DNA file and read its contents
 - [ ] For each of the STR call `longest_match` to get how many times each STR repeats in the DNA
     - [ ] If the values returned match someone in the CSV files, print the name
