@@ -4,5 +4,5 @@ Databases is a collection of data, organized with columns and rows. The column i
 Databases are used to store and retrieve information, manipulate it and create relationships between the data
 
 ## Types
-[[CS50x Flat-File Databases]]
-[[Relational Databases]]
+[[CS50x Flat-File Database]]
+[[CS50x Relational Databases]]
