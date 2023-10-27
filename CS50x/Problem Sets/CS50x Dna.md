@@ -30,7 +30,7 @@
 ## Files
 
 ### dna.py
-- [ ] Require arguments:
+- [x] Require arguments:
     - csv file with STR counts (list of individuals)
     - DNA text file with a sequence to identify
 
