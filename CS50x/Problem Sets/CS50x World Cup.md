@@ -1,5 +1,5 @@
 # World Cup
-[[Problem Sets]]
+[[CS50x Problem Sets]]
 
 - In soccer Word Cup, the knockout consists of 16 teams
     - Each team has a FIFA Rating, which represents the team's skill
