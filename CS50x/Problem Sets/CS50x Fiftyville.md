@@ -85,3 +85,10 @@
 - minute
 - activity
 - license_plate
+
+## Notes
+### Witnesses
+- Theft of CS50 duck happened at 10:15am at the bakery. 3 witnesses
+    - Witness 1 saw the thief get into a car in the bakery parking lot betwen 10:15am and 10:25am
+    - Witness 2 recognized the thief as someone who withdrawed money on at the ATM on Legget Street
+    - Witness 3 heard the thief talking with someone about taking the earliest flight out of fiftyville
