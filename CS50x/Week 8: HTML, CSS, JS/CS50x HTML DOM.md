@@ -17,7 +17,7 @@ DOM (Document Object Model) is the structure of HTML files, where each tag is a 
 </html>
 ```
 
-The below codeblock can be represented with a tree
+The above codeblock can be represented with a tree
 
 ```mermaid 
 flowchart TD;
