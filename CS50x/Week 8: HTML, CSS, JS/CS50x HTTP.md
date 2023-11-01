@@ -1,5 +1,6 @@
 # HTTP/HTTPS
-HTTP or HTTPS is a protocol built on top of [[CS50x IP]] to exchange hypermedia information commonly in the form of [[CS50x HTML]] documents
+HTTP or HTTPS is a protocol built on top of [[CS50x IP]] to exchange hypermedia information commonly in the form of [[CS50x HTML]] documents  
+A common http/https connection consists of [[CS50x HTTP Request]] and [[CS50x HTTP Response]]
 
 ## Addresses
 A HTTP/HTTPS address has the following format:
