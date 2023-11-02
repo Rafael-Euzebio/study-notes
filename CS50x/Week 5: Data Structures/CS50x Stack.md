@@ -2,6 +2,31 @@
 Stack is an [[CS50x Abstract Data Type]], that describes a collection of elements organized in sequence and added/removed from only one end
 The name is an analogy to a set of physical elements stacked on top of each other
 
+```mermaid
+flowchart TD
+    subgraph pushing
+        6 
+    end
+    subgraph stack
+        6 --> 5 --- 4
+        4 --- 3
+        3 --- 2
+        2 --- 1
+    end
+
+    subgraph popping
+        pop <--- 10
+    end
+
+    subgraph stack2
+        10 --- 9
+        9 --- 8  
+        8 --- 7  
+        7 
+    end
+
+```
+
 ## Operations
 A Stack has 3 different operations allowed to it: 
 - **Push**: Adds an element to the stack

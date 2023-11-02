@@ -1,6 +1,20 @@
 # Queue
 A Queue is an [[CS50x Abstract Data Type]] collection of elements organized in sequence, which the elements are added from one end and removed from the other
 
+```mermaid
+flowchart LR
+    subgraph enqueue
+    6 
+    end
+
+    subgraph queue
+     6 --> rear --- 5 --- 4 --- 3 --- 2 --- front
+    end
+
+    subgraph dequeue
+        front --> 1
+    end
+```
 ## Operations
 A Queue has 3 operations allowed to it:
 - **Enqueue**: Adding an element to the last position of the queue (known as back, rear or tail).
