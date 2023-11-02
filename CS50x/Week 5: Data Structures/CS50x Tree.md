@@ -15,4 +15,17 @@ Trees are widely used to represent heierachical data, a common example are *file
 - Finding the root for any node
 - Finding the lowest common ancestor of two nodes
 
-
+```mermaid
+graph TD
+    node((root)) --> child1
+    node((root)) --> child2
+    child1((node)) --> child3
+    child1((node)) --> child4
+    child2((node)) --> child5
+    child2((node)) --> child6
+    child2((node)) --> child7((node))
+    child3((node)) --> child8((node))
+    child4((node))
+    child5((node))
+    child6((node))
+```

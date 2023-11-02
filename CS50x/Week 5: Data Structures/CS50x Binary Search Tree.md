@@ -34,4 +34,25 @@ bool search(node *tree, int number)
 ```
 
 
-  
+## Flowchart  
+```mermaid
+graph TD
+    node1((1))
+    node2((2)) --- node1
+    node2((2)) --- node3
+    node3((3))
+    node4((4)) --- node2
+    node4((4)) --- node5
+    node5((5)) --- node6
+    node6((6))
+    node7((7)) --- node4
+    node7((7)) --- node10
+    node8((8))
+    node9((9)) --- node8
+    node10((10)) --- node9
+    node10((10)) --- node12
+    node11((11))
+    node12((12)) --- node11
+    node12((12)) --- node13
+    node13((13))
+```
