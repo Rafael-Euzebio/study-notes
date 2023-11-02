@@ -1,6 +1,11 @@
 # Singly Linked Lists
 A singly-linked list is a [[CS50x Linked Lists]] data structure, a linear collection of elements. The elements are not stored sequentially in memory, like and *array*, instead, each element points to the address of the next one.
 
+```mermaid
+flowchart LR
+    node1[root - value: 5 ] --> node2[node - value: 8] --> node3[node - value: 13] --> node4[node - value:15] --> node5[node - value: 17]
+```
+
 ## Structure
 A singly-linked list is made of *nodes*, each node has a *data* and a *next* field  
 
@@ -44,6 +49,12 @@ node *CreateRoot(int value)
 
 ### Inserting Nodes
 #### Tail Insert
+
+```mermaid
+flowchart LR
+    node1[root - value: 5 ] --> node2[node - value: 8] --> node3[node - value: 13] --> node4[node - value:15] --> node5[new node - value: 17]
+```
+
 Tail Insert refers to a linked list which new nodes and values are inserted at the very end, one after the other.  
 The steps to do that are:
 1. Iterate through all nodes, starting at the root. 
@@ -69,6 +80,16 @@ void InsertNode(node *root, int value)
 The disadvange of Tail Insert is that adding new nodes is always linear time complexity $O(n)$
 
 ### Head Insert
+
+```mermaid
+flowchart LR
+    node1[root - value: 17 ] --> node2[node - value: 15] --> node3[node - value: 13] --> node4[node - value: 8] --> node5[new node - value: 5]
+
+    subgraph insert 
+    node6[new root - value 20] --> node1
+    end
+```
+
 Head Insert refers to a linked list which new nodes are inserted at the begginging at the list. New nodes coming before old ones.  
 To do that it is necessary to keep changing the root pointer to the new node after every insertion.  
 The steps to do that are:

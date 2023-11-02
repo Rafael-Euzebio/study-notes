@@ -1,11 +1,19 @@
 # Doubly-Linked Lists
 A singly-linked list is a [[CS50x Linked Lists]] data structure, a linear collection of elements. The elements are not stored sequentially in memory, like and *array*, instead, each element points to the address of the next one.
 
+```mermaid
+flowchart LR
+    node1[root - value: 5 ] --> node2[node - value: 8] --> node3[node - value: 13] --> node4[node - value:15] --> node5[node - value: 17]
+    node5 --> node4 --> node3 --> node2 --> node1
+```
+
 ## Structure 
 A doubly-linked lists is made of *nodes*, eachnode has a *data*, a *next* and a *prev* field:  
 - `data` = the value stored in that node 
 - `next` =  the address of the next node 
 - `prev` =  the address of the previous node
+
+
 
 ## Example
 
@@ -179,3 +187,5 @@ void DeleteList(node *root)
         current_node  = NULL;
     }
 }
+```
+

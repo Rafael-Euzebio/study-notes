@@ -1,6 +1,11 @@
 # Linked Lists
 A linked lists is a data structure that stores a collection of elements, linking one to the next. In memory, a linked list isn't stored sequentially, like an array. Instead, every *node* in a linked list has a *pointer* to the next node.
 
+```mermaid
+flowchart LR
+    node1[root - value: 5 ] --> node2[node - value: 8] --> node3[node - value: 13] --> node4[node - value:15] --> node5[node - value: 17]
+```
+
 ## Types of Linked Lists
 There are multiple types of linked lists:
 - [[CS50x Singly-Linked Lists]]: Linked lists that each node has only a single pointer, pointing to the next element in the list.

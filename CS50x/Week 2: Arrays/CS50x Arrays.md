@@ -1,6 +1,11 @@
 # Arrays
 Arrays are [[CS50x Data Structures]] consisting of elements stored in sequence in memory.
 
+```mermaid
+flowchart LR
+    1 --- 2 --- 3 --- 4 --- 5 --- 6
+```
+
 ## As Data Structures
 As a data structure, an array is a sequence of elements stored sequentially in memory, where each element can be acessed through the following formula:
 `
