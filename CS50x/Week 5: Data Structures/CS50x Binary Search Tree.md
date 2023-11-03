@@ -1,6 +1,6 @@
 # Binary Search Tree
-A binary search tree (BTS) is a [[CS50x Data Structures]] which implements a [[CS50x Tree]].  
-A BTS consists of nodes, each node has two *pointers*, to nodes with values greater and lesser than it's value.  
+A binary search tree (BST) is a [[CS50x Data Structures]] which implements a [[CS50x Tree]].  
+A BST consists of nodes, each node has two *pointers*, to nodes with values greater and lesser than it's value.  
 On a mental visualization level, the nodes with lower values are at the left of its parent node, and the ones with greater value are at the right.
 
 
