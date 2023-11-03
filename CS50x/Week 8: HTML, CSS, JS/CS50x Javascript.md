@@ -43,3 +43,6 @@ function alertName(event) {
     alert('You clicked on ' + button.innerHTML)
 } 
 ```
+
+`onclick` is an event, when the button is clicked it calls the `alertName()` function, which takes the event object as an argument.  
+Then it extracts the Element name from the object and creates an alert with the HTML text that's inside the object
