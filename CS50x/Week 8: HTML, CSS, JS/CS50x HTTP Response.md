@@ -2,6 +2,12 @@
 A HTTP Response is a message returned from a server after a [[CS50x HTTP Request]] method is executed.  
 A common response consists mainly of a *status code*, and, possibly a file returned from the server
 
+```mermaid
+flowchart LR
+    Device--- GET[GET 'https:.../'] --> Server
+    Server--- Response[200 OK - HTML File] --> Device
+```
+
 ## Examples
 This is a response returned when acessing `https://www.example.com`
 
@@ -67,17 +73,6 @@ Some response codes:
 | 404 | Not Found | Page does not exist
 
 
-## Flowchart
-
-
-### Get method
-```mermaid
-flowchart LR
-    Device--- GET[GET 'https:.../'] --> Server
-    Server--- Response[200 OK - HTML File] --> Device
-```
-
-### Redirecting
 ```mermaid
 flowchart LR
     Device--- GET[GET 'http:.../'] --> Old-Server
