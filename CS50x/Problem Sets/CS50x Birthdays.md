@@ -21,9 +21,9 @@
 - Rendered by flask
 
 ## TODOS
-- [ ] Display table in `index.html` when `/` is requested via `GET`
-    - [ ] Query the `birthdays` database
-    - [ ] Render in `index.html`
+- [x] Display table in `index.html` when `/` is requested via `GET`
+    - [x] Query the `birthdays` database
+    - [x] Render in `index.html`
 - [ ] Add new birthdays to database when `/` is requested via `POST`
     - [ ] Add a HTML form to input name, month and day
     - [ ] Insert the form info in database
