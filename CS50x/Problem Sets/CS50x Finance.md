@@ -36,12 +36,12 @@ Implement a web app which allow users to register, "buy" and "sell" stocks
 
 ## TODOS
 - [ ] `register` route
-    - [ ] Create `register.html`
-        - [ ] Require username input in a text field named `username`, render apology if there's no username
-        - [ ] Require password input in a text field named `password`
-            - [ ] Require the same password in a text field named `confirmation`
-                - [ ] Render apology if either field is blank or they're not the same
-    - [ ] Submit user input via `POST` to `/register`
+    - [x] Create `register.html`
+        - [x] Require username input in a text field named `username`, render apology if there's no username
+        - [x] Require password input in a text field named `password`
+            - [x] Require the same password in a text field named `confirmation`
+                - [x] Render apology if either field is blank or they're not the same
+    - [x] Submit user input via `POST` to `/register`
     - [ ] Insert user in database, storing a hash of the password 
 
 - [ ] `quote` route
