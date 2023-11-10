@@ -48,7 +48,8 @@ Implement a web app which allow users to register, "buy" and "sell" stocks
     - [ ] Create templates `quote.html` and `quoted.html` 
     - [ ] Require user to input stock's symbol in a text field named `symbol`
     - [ ] Submit to `quote` via `POST`
-        - [ ] Render `quoted.html` as a response
+        - [ ] `lookup` stock details
+            - [ ] Render it to `quoted.html`
 
 - [ ] `buy` route
     - [ ] Require user to input stock's symbol in a text field named `symbol` using `lookup` to find its price, render apology if it's blank or invalid
