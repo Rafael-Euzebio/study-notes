@@ -52,11 +52,11 @@ Implement a web app which allow users to register, "buy" and "sell" stocks
             - [x] Render it to `quoted.html`
 
 - [ ] `buy` route
-    - [ ] Require user to input stock's symbol in a text field named `symbol` using `lookup` to find its price, render apology if it's blank or invalid
-    - [ ] Require user to input a number of shares, in a text field named `shares`. Render apology if it's not a positive integer
-    - [ ] Submit to `/buy` via `POST`
-    - [ ] Check how much cash the user still has
-        - [ ] Render apology if user doesn't has enough cash
+    - [x] Require user to input stock's symbol in a text field named `symbol` using `lookup` to find its price, render apology if it's blank or invalid
+    - [x] Require user to input a number of shares, in a text field named `shares`. Render apology if it's not a positive integer
+    - [x] Submit to `/buy` via `POST`
+    - [x] Check how much cash the user still has
+        - [x] Render apology if user doesn't has enough cash
     - [ ] Create a table to keep track of how many shares the user has, at what price they were bought and when they were bought
 
 - [ ] `index`
