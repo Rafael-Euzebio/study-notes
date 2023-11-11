@@ -44,12 +44,12 @@ Implement a web app which allow users to register, "buy" and "sell" stocks
     - [x] Submit user input via `POST` to `/register`
     - [x] Insert user in database, storing a hash of the password 
 
-- [ ] `quote` route
-    - [ ] Create templates `quote.html` and `quoted.html` 
+- [x] `quote` route
+    - [x] Create templates `quote.html` and `quoted.html` 
     - [x] Require user to input stock's symbol in a text field named `symbol`
     - [x] Submit to `quote` via `POST`
         - [x] `lookup` stock details
-            - [ ] Render it to `quoted.html`
+            - [x] Render it to `quoted.html`
 
 - [ ] `buy` route
     - [ ] Require user to input stock's symbol in a text field named `symbol` using `lookup` to find its price, render apology if it's blank or invalid
