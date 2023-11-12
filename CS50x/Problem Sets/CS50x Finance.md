@@ -57,7 +57,7 @@ Implement a web app which allow users to register, "buy" and "sell" stocks
     - [x] Submit to `/buy` via `POST`
     - [x] Check how much cash the user still has
         - [x] Render apology if user doesn't has enough cash
-    - [ ] Create a table to keep track of how many shares the user has, at what price they were bought and when they were bought
+    - [x] Create a table to keep track of how many shares the user has, at what price they were bought and when they were bought
 
 - [ ] `index`
     - [ ] display a table of 
