@@ -13,7 +13,7 @@ Cookies are used for 3 purposes, mainly:
 Cookies are essential to prevent the user from having to repeat actions again and again, like logging in multiple times a day or changing the website theme
 
 ## Example
-A cookie is set by the server on the client's web browser through the [HTTP Response](./CS50x_HTTP-Response.md). Like when logging in
+A cookie is set by the server on the client's web browser through the [HTTP Response](../Week-8-HTML-CSS-JS/CS50x_HTTP-Response.md). Like when logging in
 ```python
 resp = make_response(redirect('/'))
 resp.set_cookie('sessionID', id)
@@ -25,7 +25,7 @@ Content-Type: text/html
 Set-Cookie: sessionID=id
 ```
 
-Next time a [HTTP Request](./CS50x_HTTP-Request.md) is sent the web browser sends
+Next time a [HTTP Request](../Week-8-HTML-CSS-JS/CS50x_HTTP-Request.md) is sent the web browser sends
 
 ```http
 GET / HTTP/2.0
