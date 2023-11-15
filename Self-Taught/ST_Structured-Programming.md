@@ -1,5 +1,5 @@
 # Structured Programming
-Structured Programming is a [Programming Paradigm](./Univesp_Programming-Paradigm.md) which allows the use of *control structures* to command the execution of a program.
+Structured Programming is a [Programming Paradigm](../Univesp_Programming-Paradigm.md) which allows the use of *control structures* to command the execution of a program.
 
 These control structures allow to execute lines of code in repetition or given that a certain condition is `true` or `false`
 
