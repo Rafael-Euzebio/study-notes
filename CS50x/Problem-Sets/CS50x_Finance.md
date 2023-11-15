@@ -59,12 +59,12 @@ Implement a web app which allow users to register, "buy" and "sell" stocks
         - [x] Render apology if user doesn't has enough cash
     - [x] Create a table to keep track of how many shares the user has, at what price they were bought and when they were bought
 
-- [ ] `index`
-    - [ ] display a table of 
-        - [ ] Which stocks the user has
-        - [ ] The number of shares owned 
-        - [ ] The total value of each (shares times price)
-        - [ ] Current cash balance (stocks total plus cash)
+- [x] `index`
+    - [x] display a table of 
+        - [x] Which stocks the user has
+        - [x] The number of shares owned 
+        - [x] The total value of each (shares times price)
+        - [x] Current cash balance (stocks total plus cash)
 - [ ] `sell`
     - [ ] Requires user to input stock symbol on a `select` menu.
     - [ ] Require user to input number of shares on a text field named `shares`
