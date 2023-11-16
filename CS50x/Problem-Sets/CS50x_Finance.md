@@ -78,8 +78,8 @@ Implement a web app which allow users to register, "buy" and "sell" stocks
         - [x] The price
         - [x] The number of shares bought
         - [x] The date and time it ocurred
-- [ ] `personal touch`
-    - [ ] Allow user to change passwords
+- [x] `personal touch`
+    - [x] Allow user to change passwords
     - [ ] Allow users to add cash to their account
     - [ ] Allow users to buy or sell stocks via `index`
     - [ ] Require passwords to have letters, numbers or symbols
