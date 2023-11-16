@@ -71,13 +71,13 @@ Implement a web app which allow users to register, "buy" and "sell" stocks
         - [x] Render apology if the user does not own enough shares of that stock, or `shares` is not positive
     - [x] Submit input via `POST` to `/sell`
     - [x] Redirect to home page 
-- [ ] `history`
-    - [ ] Create a table that displays on each row
-        - [ ] If a stock was bought or sold
-        - [ ] The stock symbol
-        - [ ] The price
-        - [ ] The number of shares bought
-        - [ ] The date and time it ocurred
+- [x] `history`
+    - [x] Create a table that displays on each row
+        - [x] If a stock was bought or sold
+        - [x] The stock symbol
+        - [x] The price
+        - [x] The number of shares bought
+        - [x] The date and time it ocurred
 - [ ] `personal touch`
     - [ ] Allow user to change passwords
     - [ ] Allow users to add cash to their account
