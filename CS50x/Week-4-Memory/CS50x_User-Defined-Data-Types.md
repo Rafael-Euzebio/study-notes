@@ -5,4 +5,3 @@ Some "User Defined Data Types" are also [Derived Data Types](../Week-2-Arrays/CS
 ## User Defined Data Types in C
 - [Structures](../Week-3-Algorithms/CS50x_Structures.md)
 - [Typedef](./CS50x_Typedef.md)
-- [Void](../Week-1-C/CS50x_Void.md)
