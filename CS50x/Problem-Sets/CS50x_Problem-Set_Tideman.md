@@ -135,11 +135,11 @@ Charlie is the winner
 
 
 ## TODOS
-- [ ] `vote` function
+- [x] `vote` function
     - Function takes `rank`, `name` and `ranks` as arguments
-        - [ ] Check if candidate exists
-        - [ ] Update `ranks` array at the `rank` index with the index of the candidate
-        - [ ] Return `true` if candidate exists, `false` otherwise
+        - [x] Check if candidate exists
+        - [x] Update `ranks` array at the `rank` index with the index of the candidate
+        - [x] Return `true` if candidate exists, `false` otherwise
 
 - [ ] `record_preferences` function
     - Function is called for each voter and takes the `ranks` array as argument
