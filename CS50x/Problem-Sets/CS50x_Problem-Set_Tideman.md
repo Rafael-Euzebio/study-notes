@@ -141,12 +141,12 @@ Charlie is the winner
         - [x] Update `ranks` array at the `rank` index with the index of the candidate
         - [x] Return `true` if candidate exists, `false` otherwise
 
-- [ ] `record_preferences` function
+- [x] `record_preferences` function
     - Function is called for each voter and takes the `ranks` array as argument
-        - [ ] Update `preferences` array to add the current voters preferences
+        - [x] Update `preferences` array to add the current voters preferences
 
-- [ ] `add_pairs` function
-    - [ ] Add all pairs of candidates where one candidate is prefered over the other to the `pairs` array
+- [x] `add_pairs` function
+    - [x] Add all pairs of candidates where one candidate is prefered over the other to the `pairs` array
         - Do not include ties
 - [ ] `sort_pairs` function
     - [ ] sort the `pairs` array in decreasing order of strength of victory
