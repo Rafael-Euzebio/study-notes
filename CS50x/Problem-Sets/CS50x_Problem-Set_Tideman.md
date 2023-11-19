@@ -148,8 +148,8 @@ Charlie is the winner
 - [x] `add_pairs` function
     - [x] Add all pairs of candidates where one candidate is prefered over the other to the `pairs` array
         - Do not include ties
-- [ ] `sort_pairs` function
-    - [ ] sort the `pairs` array in decreasing order of strength of victory
+- [x] `sort_pairs` function
+    - [x] sort the `pairs` array in decreasing order of strength of victory
 
 - [ ] `lock_pairs` function
     - [ ] Create the graph, locking each pair as long it doesn't creates a cycle
