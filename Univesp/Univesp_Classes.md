@@ -1,5 +1,5 @@
 # Classes
-Classes are [Structures](../CS50x/Week-3-Algorithms/CS50x_Structures.md) which allows the declaration of methods as members of the structures.
+Classes are [Structures](../CS50x/Week-3_Algorithms/CS50x_Structures.md) which allows the declaration of methods as members of the structures.
 
 A class is an abstraction of a [Objects](./Univesp_Objects.md). A class has *fields*, which specifies what information it can contain and [Univesp Methods] that can change the value of these fields. But the information itself is unknown, until that class is instanced as an *object*
 

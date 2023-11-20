@@ -1,5 +1,5 @@
 # Methods
-Methods are [Functions](../CS50x/Week-1-C/CS50x_Functions.md) inside [Objects](./Univesp_Objects.md). They can interact with other objects or with the properties of its own object. A method is the *behavior* of an object.
+Methods are [Functions](../CS50x/Week-1_C/CS50x_Functions.md) inside [Objects](./Univesp_Objects.md). They can interact with other objects or with the properties of its own object. A method is the *behavior* of an object.
 These methods can be called by referencing them through the object, instead of passing the object as an argument to a function
 
 A method is either a [Getters](./Univesp_Getters.md), [Setters](./Univesp_Setters.md) or a [Constructors](./Univesp_Constructors.md)

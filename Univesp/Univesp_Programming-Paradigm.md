@@ -1,5 +1,5 @@
 # Programming Paradigms
-Programming paradigms is a way to classify [Programming Language](../CS50x/Week-1-C/CS50x_Programming-Language.md) by their features, behaviors and style
+Programming paradigms is a way to classify [Programming Language](../CS50x/Week-1_C/CS50x_Programming-Language.md) by their features, behaviors and style
 
 Some programming paradigms are:
 - [Structured Programming](ST_Structured-Programming.md)

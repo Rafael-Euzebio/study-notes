@@ -1,5 +1,5 @@
 # Java
-Java is an [Objects Oriented](./Univesp_Objects-Oriented-Programming.md) [Programming Language](../CS50x/Week-1-C/CS50x_Programming-Language.md)  
+Java is an [Objects Oriented](./Univesp_Objects-Oriented-Programming.md) [Programming Language](../CS50x/Week-1_C/CS50x_Programming-Language.md)  
 
 Different than other *OOP* programming languages, Java works solely with *Classes* and *Objects*, and does not allow code outside of these
 

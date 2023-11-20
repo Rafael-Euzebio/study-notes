@@ -1,5 +1,5 @@
 # Properties
-Properties are [Variables](../CS50x/Week-1-C/CS50x_Variables.md) inside [Objects](./Univesp_Objects.md). A property describe a characteristic of an object
+Properties are [Variables](../CS50x/Week-1_C/CS50x_Variables.md) inside [Objects](./Univesp_Objects.md). A property describe a characteristic of an object
 
 ## Example
 
