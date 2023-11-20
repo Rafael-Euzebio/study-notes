@@ -151,8 +151,8 @@ Charlie is the winner
 - [x] `sort_pairs` function
     - [x] sort the `pairs` array in decreasing order of strength of victory
 
-- [ ] `lock_pairs` function
-    - [ ] Create the graph, locking each pair as long it doesn't creates a cycle
+- [x] `lock_pairs` function
+    - [x] Create the graph, locking each pair as long it doesn't creates a cycle
 
-- [ ] `print_winner` function
+- [x] `print_winner` function
 
