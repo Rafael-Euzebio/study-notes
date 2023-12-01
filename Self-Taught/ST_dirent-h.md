@@ -99,6 +99,3 @@ long telldir(DIR *)
 
 - Returns the current location in the directory stream
 
-
-            
-
