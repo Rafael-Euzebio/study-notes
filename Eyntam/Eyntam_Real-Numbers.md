@@ -1,0 +1,12 @@
+# Real Numbers
+- Any number that can be placed on a [Number Line](./Eyntam_Number-Line.md)
+    - This includes: 
+        - [Irrational](./Eyntam_Irrational-Numbers.md) and [Rational](./Eyntam_Rational-Numbers.md) numbers 
+        - [Integers](./Eyntam_Integers.md), 
+        - [Natural](./Eyntam_Natural-Numbers.md) and [Whole](./Eyntam_Whole-Numbers.md) numbers
+        - Fractions
+        - Negative and positive numbers, zero
+    - This **does not** includes:
+        - Imaginary numbers
+            - $\sqrt{1}$
+        - $\infty$ (Infinity)
