@@ -8,5 +8,5 @@
         - Negative and positive numbers, zero
     - This **does not** includes:
         - Imaginary numbers
-            - $\sqrt{1}$
+            - $\sqrt{-1}$
         - $\infty$ (Infinity)
