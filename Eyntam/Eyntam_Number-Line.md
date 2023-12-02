@@ -17,6 +17,8 @@
 \end{document}
 ```
 
+- Numbers can also be represented with fractions
+
 ```tikz
 \usetikzlibrary{arrows}
 \usetikzlibrary{math}
