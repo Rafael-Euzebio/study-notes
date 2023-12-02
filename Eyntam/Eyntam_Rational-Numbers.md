@@ -1,7 +1,7 @@
 # Rational Numbers
 - Numbers that can be written as a fraction of two [Integers](./Eyntam_Integers.md)
 
-*Every rational number is a [Real Number](./Eytam_Real-Numbers.md),*but the opposite is not true
+*Every rational number is a [Real Number](./Eyntam_Real-Numbers.md)*, but the opposite is not true
 
 ## Examples
 $0.25 = \frac{1}{2}$
