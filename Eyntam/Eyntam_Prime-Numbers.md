@@ -1,5 +1,4 @@
 # Prime Numbers
-
 - Numbers which the only [Factors](./Eyntam_Factors.md) are 1 and the number itself
     - 2, 3, , 5, 7...
         - No other number can be multiplied together to achieve 2, 3, and 7 other than 1 and the number itself
