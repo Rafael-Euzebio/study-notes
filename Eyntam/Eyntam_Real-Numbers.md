@@ -4,8 +4,8 @@
         - [Irrational](./Eyntam_Irrational-Numbers.md) and [Rational](./Eyntam_Rational-Numbers.md) numbers 
         - [Integers](./Eyntam_Integers.md), 
         - [Natural](./Eyntam_Natural-Numbers.md) and [Whole](./Eyntam_Whole-Numbers.md) numbers
-        - Fractions
-        - Negative and positive numbers, zero
+        - [Fractions](./Eyntam_Fractions.md)
+        - [Negative](./Eyntam_Positive-Negative-Numbers.md)
     - This **does not** includes:
         - Imaginary numbers
             - $\sqrt{-1}$
